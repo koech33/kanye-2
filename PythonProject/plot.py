@@ -101,7 +101,7 @@ if name:
             # --- Surprise ---
             if st.session_state.show_surprise:
                 st.success("Ta-da!!")
-                st.image("mimi.jpg", width=700)
+                st.image("https://i.imgur.com/0GoYWSJ.mp4", width=700)
                 st.balloons()
                 st.markdown("""
                 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5a8z2vyIDKMh5qcRG6w9wu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -131,5 +131,6 @@ if name:
     else:
         st.error("🚫 Access Denied! This app is not for you 💅")
         st.stop()
+
 
 
